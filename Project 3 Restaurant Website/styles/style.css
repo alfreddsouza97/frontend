@@ -1,0 +1,249 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+   
+
+}
+body {
+
+    
+
+    background: url("pexels-maxyne-barcel-10402282 1.png");
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+}
+
+nav {
+
+    padding: 10px 5%;
+    height: 10vh;
+   
+    
+
+
+}
+
+
+
+
+
+
+nav ul {
+
+   
+
+    display: flex;
+
+    align-items: center;
+
+    width: 50%;
+/* 
+    float: center; */
+   
+}
+
+nav ul li {
+
+
+   margin-left: 15%;
+   color: #ffa500;
+   list-style: none;
+   font-weight: 1000;
+   /* align-items: center;
+   justify-content: center; */
+   text-decoration: none;
+   cursor: pointer;
+
+   
+
+   
+
+  
+   
+}
+
+nav ul li a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+    
+}
+
+nav ul li a:hover {
+
+    font-size: 20px;
+    color: white;
+    font-weight: 1000;
+}
+
+nav ul .logo {
+
+    margin-left: 5px;
+}
+    
+
+
+    .logo img {
+
+        height: fit-content;
+
+        width: fit-content;
+
+
+    }
+
+
+nav ul .li-start{
+
+
+    margin-left: 250px;
+
+    
+
+    
+
+
+
+}
+
+
+
+nav button {
+
+    /* display: flex; */
+
+    margin-left: 360px;
+
+    background-color: #df4f4f;
+
+    padding: 15px 40px;
+
+    color: white;
+
+    font-weight: 1000;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+
+    
+    
+
+
+}
+
+nav button:hover {
+
+    background-color: white;
+    color: #df4f4f ;
+    border: none;
+   
+    
+}
+
+main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.maincont {
+
+    width: 50%;
+}
+
+.maincont h1 {
+
+    margin-top: 150px;
+
+    font-size: 80px;
+
+    color: #ffa500;
+    font-family: 'Fredoka One', cursive;}
+
+
+
+
+
+.maincont button {
+
+    /* align-items: center;
+    justify-content: center; */
+
+    margin-top: 35px;
+
+    margin-left: 200px;
+
+    background-color: #df4f4f;
+
+    padding: 20px 60px;
+
+    font-size: 18px;
+
+    font-weight: 1000;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 15px;
+}
+
+.maincont button:hover {
+
+    background-color: white;
+    color: #df4f4f ;
+    border: none;
+}
+
+footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-left: 1360px;
+
+    /* float: right; */
+
+    align-items: center;
+
+    
+    
+
+    
+}
+
+footer img {
+
+    width: 105px;
+    height: 105px;
+    margin-right: 20px;
+   
+
+    
+
+}
+
+
+
+
+
+
