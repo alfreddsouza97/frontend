@@ -1,0 +1,198 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+    
+    background: url("bg.png");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+
+}
+
+nav {
+
+    display: flex;
+
+    align-items: center;
+    height: 10vh;
+
+    background-color: #000000;
+
+   
+
+}
+
+
+nav ul {
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 20px 5%;
+
+
+    
+}
+
+nav ul li {
+
+    margin-right: 10%;
+
+    list-style: none;
+
+    color: white;
+
+    font-size: 13px;
+
+
+    
+
+}
+
+nav ul li a {
+
+    cursor: pointer;
+
+    text-decoration: none;
+
+    font-weight: 700;
+
+
+    color: inherit;
+}
+
+nav ul li a:hover{
+
+    color: #ffe4c4;
+} 
+
+
+
+
+
+
+
+nav ul li img {
+
+    height: 35px;
+
+    width: fit-content;
+
+
+}
+
+.line {
+
+    font-size: 45px;
+
+    color: #808080;
+}
+
+nav ul li button {
+
+    cursor: pointer;
+
+    margin-left: 400%;
+
+    padding: 10px 20px;
+
+    background-color: #bf0cbf;
+
+    color: white;
+
+    font-weight: 600;
+
+    border-radius: 10px;
+}
+
+nav ul li button:hover {
+
+    background-color: white;
+
+    color: #000000;
+
+    border: none;
+}
+
+main {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-top: 150px;
+}
+
+.hero-main {
+
+    width: 50%;
+    margin-left: 20%;
+
+    
+}
+
+.hero-main h1 {
+
+    text-indent: 20px;
+
+    font-size: 50px;
+    color: white;
+}
+
+.hero-main p {
+
+    text-indent: 50px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+
+}
+
+.hero-main button {
+
+    cursor: pointer;
+
+    margin-top: 50px;
+
+    margin-left: 18%;
+
+    padding: 10px 20px;
+
+    background-color: #bf0cbf;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+    font-size: 15px;
+
+    font-weight: 700;
+
+    
+}
+
+.hero-main button:hover {
+
+    background-color: white;
+
+    color: #000000;
+
+    border: none
+
+}
+
+
+
