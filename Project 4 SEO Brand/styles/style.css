@@ -1,0 +1,204 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+
+    
+
+    
+
+
+}
+
+body {
+
+    /* height: 100vh;  
+    width: 100vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    
+}
+
+nav {
+
+    padding: 10px 5%;
+    height: 10vh;
+   
+}
+
+nav ul  {
+
+  display: flex;
+  align-items: center;
+
+
+}
+
+.logo {
+
+    margin-left: 5px;
+
+    height: fit-content;
+
+    width: fit-content;
+}
+
+.nav-start {
+
+
+    margin-left: 7%;
+
+}
+
+nav ul li {
+
+    cursor: pointer;
+
+    margin-left: 4%;
+    list-style: none;
+    gap: 20px;
+
+}
+
+nav ul li a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+
+    font-weight: 800;
+}
+
+
+
+nav ul .button-start {
+
+    margin-left: 37%;
+  
+}
+
+nav ul button {
+
+
+    padding: 10px 20px;
+    background-color: #212184;
+
+    color: white;
+    font-weight: 500;
+
+    border-radius: 10px;
+}
+nav ul button:hover {
+
+    cursor: pointer;
+
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-weight: 700;
+
+
+}
+
+main {
+
+    display: flex;
+
+    align-items: center;
+
+    margin-top: 30px;
+
+    padding: 10px 5%;
+
+}
+
+.hero-left-main {
+
+    width: 50%;
+
+    
+    
+
+    
+
+
+}
+
+.hero-left-main h1 {
+
+    font-size: 50px;
+
+    font-weight: 1200;
+
+    
+
+
+    
+}
+
+
+
+
+
+
+.hero-left-main h1 span {
+
+    color: #212184;
+    font-weight: 1200;
+}
+
+.hero-left-main p {
+
+    margin-top: 40px;
+    font-size: 17px;
+    color: #2a2929;
+
+}
+
+.hero-left-main button {
+
+    margin-top: 60px;
+
+    padding: 10px 20px;
+
+    background-color: #212184;
+
+    color: white;
+    font-weight: 500;
+
+    border-radius: 10px;
+}
+
+.hero-left-main button:hover {
+
+    cursor: pointer;
+
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-weight: 700;
+}
+
+
+
+.hero-right-main {
+
+    width: 50%;
+}
+
+.hero-right-main img {
+
+    height: 600px;
+    width: 720px;
+}
+
+
